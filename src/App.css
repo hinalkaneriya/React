@@ -119,3 +119,24 @@
    @apply grid justify-center gap-x-[3%];
    grid-template-columns: 31% 31% 31%;
 }
+
+ .pagination {
+   @apply text-center;
+ }
+ .pagination,
+ .pagination * {
+   -webkit-user-select: none;
+      -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+ }
+ .pagination a {
+   @apply inline-block py-3 cursor-pointer m-[10px] text-[#fdf252];
+ }
+
+ .pagination a.disabled {
+   @apply opacity-30 pointer-events-none cursor-not-allowed;
+ }
+ .pagination a.current {
+   @apply text-[22px];
+ }

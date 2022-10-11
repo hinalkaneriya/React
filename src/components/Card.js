@@ -8,7 +8,7 @@ export default function Card(props) {
 
   return (
     <>         
-        <li className='pb-[30px]'>
+        <li className='pb-[30px] card-list'>
           <div className="entry">
             <h5 className="entry__header text-[#fdf252]">{props.name}</h5>
             <img src="https://zofiakorcz.pl/sw-explorer/img/characters/lukeskywalker.png" className="entry__img mb-[20px] pt-[10px]" alt="Luke Skywalker" />
