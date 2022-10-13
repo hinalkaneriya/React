@@ -1,6 +1,17 @@
 import $ from 'jquery';
 import jQuery from 'jquery';
 
+$(function() {
+	$('#colorselector').change(function(){
+	  $('.card-list').hide();
+	  $('#' + $(this).val()).show();
+	  if($(this).val() == 'all') {
+		$('.card-list').show();
+	  }
+	});
+  });
+
+
 (function($) {
 	var pagify = {
 		items: {},
@@ -119,5 +130,6 @@ import jQuery from 'jquery';
 	};
 })(jQuery);
 
-$("#container").pagify(6, ".card-list");
+$(".container-black").pagify(6, ".card-list");
+
 
