@@ -13,7 +13,7 @@
      }
   
      body {
-        @apply p-0 m-0 relative bg-black text-white overflow-x-hidden;
+        @apply p-0 m-0 relative bg-black text-white overflow-x-hidden scroll-smooth;
      }
   
      body.stop-scroll {
@@ -64,7 +64,9 @@
 }
 
 
-
+.banner {
+   background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/public/images/uni.jpg);
+}
 .banner:after {
     content: "";
     @apply absolute w-[766px] h-[766px] bottom-0 right-[-25%] top-[-44px] bg-[url('../public/images/circle.png')] bg-no-repeat rounded-[50%] bg-contain  opacity-[0.2];

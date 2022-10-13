@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import StarWar from './pages/starwar.js';
-import People from './pages/people';
+// import People from './pages/people';
 
 function App() {
   
@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<StarWar />} />
-        <Route path="people" element={<People />} />
+        {/* <Route path="people" element={<People />} /> */}
       </Routes>
       <Footer />
     </>

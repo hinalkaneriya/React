@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function banner() {
   return (
     <>
-    <div className='banner relative h-screen w-full px-[80px] min-h-[700px]'>
+    <div className='banner relative h-screen w-full px-[80px] min-h-[600px] bg-cover bg-no-repeat bg-center'>
         <div className='content pt-[100px] flex items-center justify-center h-full max-w-[550px] relative left-[10%]'>
           <div className="text-[#999999]">
             <div className="title">
@@ -16,7 +16,7 @@ export default function banner() {
               </h1>
             </div>
             <div className="text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
             <div className="content content-border-t mt-4 pt-4">
               <p>AVAILABLE: August&nbsp;— October.</p>

@@ -130,6 +130,6 @@ $(function() {
 	};
 })(jQuery);
 
-$(".container-black").pagify(6, ".card-list");
-
-
+setTimeout(function() { 
+	$(".container-black").pagify(6, ".card-list");
+}, 2000);

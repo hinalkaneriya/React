@@ -17,7 +17,7 @@ export default function Navbar() {
                   <NavLink exact to="/" className="nav-link text-[#fdf252]">Starwar</NavLink>
                 </li>
                 <li className="nav-item p-[10px] uppercase">
-                  <NavLink to="/people" className="nav-link text-[#fdf252]">People</NavLink>
+                  <NavLink to="#people" className="nav-link text-[#fdf252]">People</NavLink>
                 </li>
               </ul>
             </div>
